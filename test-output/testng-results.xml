@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29610" started-at="2021-02-08T17:18:40Z" finished-at="2021-02-08T17:19:09Z">
+    <groups>
+    </groups>
+    <test name="b" duration-ms="9" started-at="2021-02-08T17:18:40Z" finished-at="2021-02-08T17:18:40Z">
+    </test> <!-- b -->
+    <test name="c" duration-ms="22814" started-at="2021-02-08T17:18:40Z" finished-at="2021-02-08T17:19:02Z">
+      <class name="Acaddemy.E2EProject.validaTile">
+        <test-method status="PASS" signature="openURL()[pri:0, instance:Acaddemy.E2EProject.validaTile@3901d134]" name="openURL" is-config="true" duration-ms="22480" started-at="2021-02-08T22:48:40Z" finished-at="2021-02-08T22:49:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="baseUril()[pri:0, instance:Acaddemy.E2EProject.validaTile@3901d134]" name="baseUril" duration-ms="150" started-at="2021-02-08T22:49:02Z" finished-at="2021-02-08T22:49:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseUril -->
+        <test-method status="PASS" signature="closeURL()[pri:0, instance:Acaddemy.E2EProject.validaTile@3901d134]" name="closeURL" is-config="true" duration-ms="154" started-at="2021-02-08T22:49:02Z" finished-at="2021-02-08T22:49:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeURL -->
+      </class> <!-- Acaddemy.E2EProject.validaTile -->
+    </test> <!-- c -->
+    <test name="a" duration-ms="29610" started-at="2021-02-08T17:18:40Z" finished-at="2021-02-08T17:19:09Z">
+      <class name="Acaddemy.E2EProject.Homepage">
+        <test-method status="PASS" signature="openURL()[pri:0, instance:Acaddemy.E2EProject.Homepage@523884b2]" name="openURL" is-config="true" duration-ms="28067" started-at="2021-02-08T22:48:40Z" finished-at="2021-02-08T22:49:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="baseUril(java.lang.String, java.lang.String)[pri:0, instance:Acaddemy.E2EProject.Homepage@523884b2]" name="baseUril" duration-ms="762" started-at="2021-02-08T22:49:08Z" data-provider="getData" finished-at="2021-02-08T22:49:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gamil.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseUril -->
+        <test-method status="PASS" signature="baseUril(java.lang.String, java.lang.String)[pri:0, instance:Acaddemy.E2EProject.Homepage@523884b2]" name="baseUril" duration-ms="683" started-at="2021-02-08T22:49:08Z" data-provider="getData" finished-at="2021-02-08T22:49:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaa@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseUril -->
+        <test-method status="PASS" signature="closeURL()[pri:0, instance:Acaddemy.E2EProject.Homepage@523884b2]" name="closeURL" is-config="true" duration-ms="84" started-at="2021-02-08T22:49:09Z" finished-at="2021-02-08T22:49:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeURL -->
+      </class> <!-- Acaddemy.E2EProject.Homepage -->
+    </test> <!-- a -->
+  </suite> <!-- Suite -->
+</testng-results>
