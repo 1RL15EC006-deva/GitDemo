@@ -34,6 +34,10 @@ public class validaTile extends base
 	  	LandingPage land = new LandingPage(driver);
 	
 	  	String title = land.getTitle().getText();
+	  	
+	  	System.out.println("devanand");
+	  	
+	  	System.out.println("devanand");
 	
 	  	Assert.assertEquals(title,"FEATUREDs COURSES");
   }

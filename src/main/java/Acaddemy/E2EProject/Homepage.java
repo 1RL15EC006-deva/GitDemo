@@ -39,6 +39,14 @@ public class Homepage extends base
           LoginPage login = new LoginPage(driver);
           
           System.out.println("devanand");
+          
+          System.out.println("devanand");
+          
+          System.out.println("devanand");
+          
+          System.out.println("devanand");
+          
+          System.out.println("devanand");
     
 		  login.getEmail().sendKeys(email);
     
