@@ -37,6 +37,8 @@ public class Homepage extends base
 	  public void baseUril(String email,String password) throws IOException
 	  {
           LoginPage login = new LoginPage(driver);
+          
+          System.out.println("devanand");
     
 		  login.getEmail().sendKeys(email);
     
